@@ -32,5 +32,5 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
           local-dir: _site/
-          server-dir: public_html/bench-news/
+          server-dir: public_html/Bench-news/
 
