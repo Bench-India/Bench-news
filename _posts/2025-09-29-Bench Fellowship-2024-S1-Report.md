@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: post
 title: "Bench Fellowship-2024-S1-Report."
 date: 2025-09-29 12:30 +0530
 categories: event
