@@ -1,12 +1,12 @@
 title: Bench News
-description: Updates from Bench
-theme: minima             # built-in theme, no extra setup
-show_excerpts: true
+description: Blog for Bench News and Updates
+theme: minima
 
-# Because this is a *project* site (not username.github.io), add:
+# IMPORTANT for project pages
 url: "https://bench-india.github.io"
-baseurl: "/bench-news" # repo name prefixed with a slash
+baseurl: "/Bench-news"     # <= repo name starting with a slash
 
+show_excerpts: true
 # Optional: GitHub Pages-whitelisted plugins
 plugins:
   - jekyll-feed           # RSS feed
