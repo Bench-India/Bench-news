@@ -8,4 +8,4 @@ tags: [announcement, bench]
 
 Welcome to our new News page!
 
-![Welcome poster]({{ '/assets/benchwelcomeimage.png' | relative_url }})
+![Welcome poster]({{ '/assets/img/benchwelcomeimage.png' | relative_url }})
