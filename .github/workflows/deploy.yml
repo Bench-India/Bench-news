@@ -1,1 +1,36 @@
+name: Deploy Jekyll to Hostinger
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Install Jekyll deps
+        run: |
+          bundle init || true
+          echo 'gem "jekyll", "~> 4.3"' >> Gemfile
+          echo 'gem "webrick"' >> Gemfile
+          bundle install
+
+      - name: Build site
+        run: bundle exec jekyll build --trace
+
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          local-dir: _site/
+          server-dir: public_html/bench-news/
 
