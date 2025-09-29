@@ -4,8 +4,8 @@ theme: minima             # built-in theme, no extra setup
 show_excerpts: true
 
 # Because this is a *project* site (not username.github.io), add:
-url: "https://Bench-India.com"
-baseurl: "/Bench-news" # repo name prefixed with a slash
+url: "https://bench-india.github.io"
+baseurl: "/bench-news" # repo name prefixed with a slash
 
 # Optional: GitHub Pages-whitelisted plugins
 plugins:
