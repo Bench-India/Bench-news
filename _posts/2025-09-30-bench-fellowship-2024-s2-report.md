@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Bench Fellowship — 2024 S1 Report"
-date: 2025-09-29 12:30 +0530
+title: "Bench Fellowship — 2024 S2 Report"
+date: 2025-09-30 08:30 +0530
 categories: event
 tags: [fellowship, bench]
 ---
