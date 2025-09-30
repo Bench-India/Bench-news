@@ -6,12 +6,10 @@ categories: event
 tags: [fellowship, bench]
 ---
 
-Bench Part-Time Fellowship 2024 Session One report is available to read.
+Bench Part-Time Fellowship 2024 Session two report is available to read.
 
 **Highlights**
-1. Theatre Workshops  
-2. Know Your Body — Your Second Brain  
-3. Self Awareness
+A Three Day WorkShop on "Emotional Aesthetics"
 
 Please have a read and support us. Reach us if you have any questions. Thank you.
 
