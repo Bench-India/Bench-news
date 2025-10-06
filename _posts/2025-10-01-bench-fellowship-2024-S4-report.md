@@ -6,7 +6,7 @@ categories: event
 tags: [fellowship, bench]
 ---
 
-Bench Part-Time Fellowship 2024 Session three report is available to read.
+Bench Part-Time Fellowship 2024 Session four report is available to read.
 
 **Highlights**
 A Three Day WorkShop on 
